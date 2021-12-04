@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const intsance = axios.create({
-  baseURL: "http://localhost:8001",
+  baseURL: "https://jab-we-met-backend.herokuapp.com/",
 });
 
 export default intsance;
